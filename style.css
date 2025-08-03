@@ -1,0 +1,109 @@
+/* Base Styles */
+@keyframes fadeInUpSmooth {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  color: #2e3141;
+  background-color: #ffffff;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Banner Styles */
+.about-banner {
+  background: url('./images/banner.png') center/cover no-repeat;
+  height: 40rem;
+  position: relative;
+  display: flex;
+ 
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-overlay {
+  background-color: rgba(46, 49, 65, 0.6);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-overlay h2 {
+  color:#F2F2F5;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 0 15px;
+  opacity: 0;
+  animation: fadeInUpSmooth 1.6s ease-in-out forwards;
+ 
+}
+
+/* About Content */
+.about-content h2 {
+  color: #4c5c96;
+  margin-top: 30px;
+  font-size: 1.6rem;
+}
+
+.about-content p {
+  margin-top: 10px;
+  color: #444;
+}
+.about-modern {
+    background-color: #2e3141;
+  /* background: linear-gradient((to bottom, rgba(103, 108, 139, 0.8), rgba(101, 106, 136, 0.8)),url("./images/banner.png")); */
+  padding: 60px 20px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.about-card {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.about-card h2 {
+  margin-bottom: 12px;
+  font-size: 1.4rem;
+  color: #4c5c96;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.about-card p {
+  font-size: 1rem;
+  color: #333;
+}
+.contact li {
+  color: #F2F2F5;
+}
+.field input{
+  color: #F2F2F5;
+}
