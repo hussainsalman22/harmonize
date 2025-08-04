@@ -7,9 +7,17 @@
 <html>
 
 <head>
+	<meta charset="UTF-8">
 	<title>Ο Χώρος Όπου η Θεραπεία Συναντάει την Έκφραση και την Επιστήμη </title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+
+
+
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
@@ -34,9 +42,9 @@
 			<div class="inner">
 				<h2>Menu</h2>
 				<ul class="links">
-					<li><a href="index.html">Αρχική</a></li>
+					<li><a href="index.html" class="active">Αρχική</a></li>
 					<li><a href="#services">Υπηρεσίες</a></li>
-					<li><a href="#aboutus">Ποιοί Είμαστε </a></li>
+					<li><a href="about.html">Ποιοί Είμαστε </a></li>
 					<li><a href="#team">Η Ομάδα μας </a></li>
 					<li><a href="#team">Φωτογραφίες</a></li>
 					<li><a href="#team">Δραστηριότητες</a></li>
@@ -52,12 +60,17 @@
 		<!-- Banner -->
 		<section id="banner">
 			<div class="inner">
-				<div class="logo"><span style="display: flex; align-items:center;"><img src="./images/logo.png"
-							style="width: 25%;height: 25%;" /></span></div>
-				<h2>Ο Χώρος Όπου η Θεραπεία Συναντάει την Έκφραση και την Επιστήμη</h2>
-				<p class="par">Το Κέντρο Εναρμονίζω προσφέρει εξατομικευμένες θεραπείες για όλες τις ηλικίες με στόχο
-					την αρμονία και προσωπική ανάπτυξη.
-					Η εξειδικευμένη ομάδα μας υποστηρίζει κάθε άτομο με ολιστική φροντίδα και επιστημονική προσέγγιση.
+				<div class="logo">
+					<span class="logo-wrapper">
+						<img src="./images/logo.png" alt="Logo" class="site-logo" />
+					</span>
+				</div>
+
+				<h2>ΕναρμονίΖω - Διεπιστημονικό Κέντρο Θεραπευτικής Παρέμβασης</h2>
+				<p class="par">Καλώς ήρθατε στο Εναρμονίζω, ένα διεπιστημονικό κέντρο θεραπευτικής παρέμβασης αφιερωμένο
+					στην υποστήριξη ανθρώπων κάθε ηλικίας για την επίτευξη αρμονίας, ανάπτυξης και ευημερίας. Η
+					εξειδικευμένη ομάδα μας προσφέρει εξατομικευμένες συνεδρίες μουσικοθεραπείας, εργοθεραπείας,
+					λογοθεραπείας και ψυχοθεραπείας, καλύπτοντας ένα ευρύ φάσμα αναγκών και στόχων.
 					</a></p>
 			</div>
 		</section>
@@ -72,10 +85,14 @@
 						<a href="#" class="image"><img src="images/music.png" alt="" /></a>
 						<div class="content">
 							<h2 class="major">Μουσικοθεραπεία</h2>
-							<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit
-								amet
-								turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla
-								dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
+							<p>Η μουσικοθεραπεία είναι μια σύγχρονη θεραπευτική προσέγγιση που αξιοποιεί τη δύναμη της
+								μουσικής για να ενισχύσει τη συναισθηματική έκφραση, την αυτογνωσία και την επικοινωνία.
+								Στο κέντρο μας, οι συνεδρίες μουσικοθεραπείας προσαρμόζονται στις ανάγκες κάθε ατόμου
+								και περιλαμβάνουν τόσο ενεργητικές δραστηριότητες (παίξιμο, σύνθεση μουσικής) όσο και
+								παθητικές (ακρόαση, χαλάρωση μέσω μουσικής). Η μουσική μπορεί να λειτουργήσει ως γέφυρα
+								για την έκφραση συναισθημάτων που δύσκολα εκφράζονται με λόγια, να μειώσει το άγχος και
+								να ενισχύσει την αυτοεκτίμηση και την ψυχική ανθεκτικότητα. Οι συνεδρίες απευθύνονται σε
+								παιδιά, εφήβους και ενήλικες ανεξαρτήτως μουσικού υπόβαθρου.</p>
 							<a href="#" class="special">μάθετε περισσότερα</a>
 						</div>
 					</div>
@@ -87,10 +104,7 @@
 						<a href="#" class="image"><img src="images/pshycotherapy.png" alt="" /></a>
 						<div class="content">
 							<h2 class="major">Ψυχοθεραπεία</h2>
-							<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit
-								amet
-								turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla
-								dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
+							<p>Η ψυχοθεραπεία και η συμβουλευτική είναι εργαλεία αυτογνωσίας, ενδυνάμωσης και προσωπικής εξέλιξης. Στο Κέντρο Θεραπείας Ενσυναίσθησης, προσφέρουμε ατομικές και ομαδικές συνεδρίες με σύγχρονες και επιστημονικά τεκμηριωμένες προσεγγίσεις (γνωσιακή-συμπεριφορική, ψυχοδυναμική, συστημική, προσωποκεντρική κ.ά.). Στηρίζουμε ενήλικες, εφήβους και παιδιά που αντιμετωπίζουν δυσκολίες όπως άγχος, κατάθλιψη, διαπροσωπικές δυσκολίες, θλίψη, απώλεια ή κρίση ταυτότητας. Στόχος μας είναι να δημιουργήσουμε έναν ασφαλή χώρο αποδοχής, να ενισχύσουμε τις δεξιότητες επίλυσης προβλημάτων και να προάγουμε την ψυχική ευεξία.</p>
 							<a href="#" class="special">μάθετε περισσότερα</a>
 						</div>
 					</div>
@@ -102,10 +116,7 @@
 						<a href="#" class="image"><img src="images/occupational.png" alt="" /></a>
 						<div class="content">
 							<h2 class="major">Εργοθεραπεία</h2>
-							<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit
-								amet
-								turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla
-								dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
+							<p>LΗ εργοθεραπεία στοχεύει στη βελτίωση της λειτουργικότητας και της αυτονομίας του ατόμου στην καθημερινή του ζωή. Σχεδιάζουμε εξατομικευμένα προγράμματα που εστιάζουν στην ανάπτυξη κινητικών δεξιοτήτων, γνωστικών ικανοτήτων και κοινωνικών δεξιοτήτων, ανάλογα με τις ανάγκες του κάθε προσώπου. Η εργοθεραπεία είναι πολύτιμη για παιδιά με αναπτυξιακές διαταραχές, μαθησιακές δυσκολίες ή δυσκολίες στην προσαρμογή στο σχολικό περιβάλλον, αλλά και για ενήλικες που αντιμετωπίζουν νευρολογικά ή σωματικά προβλήματα. Στόχος μας είναι να υποστηρίξουμε το άτομο ώστε να ενισχύσει την αυτοπεποίθηση και τη συμμετοχή του σε όλες τις πλευρές της ζωής του.</p>
 							<a href="#" class="special">μάθετε περισσότερα</a>
 						</div>
 					</div>
@@ -115,124 +126,126 @@
 						<a href="#" class="image"><img src="images/speechtherapy.png" alt="" /></a>
 						<div class="content">
 							<h2 class="major">Λογοθεραπεία</h2>
-							<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit
-								amet
-								turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla
-								dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
+							<p>Η λογοθεραπεία εστιάζει στην ενίσχυση των επικοινωνιακών και γλωσσικών δεξιοτήτων σε παιδιά και ενήλικες. Στο κέντρο μας, αξιολογούμε και αντιμετωπίζουμε δυσκολίες στον λόγο, την ομιλία, τη φωνή, την άρθρωση και την επικοινωνία, είτε αυτές είναι αποτέλεσμα αναπτυξιακών διαταραχών, μαθησιακών δυσκολιών, νευρολογικών παθήσεων ή τραυματισμών. Το θεραπευτικό μας πρόγραμμα προσαρμόζεται στο κάθε άτομο με σεβασμό στη μοναδικότητά του, με στόχο τη βελτίωση της επικοινωνίας, της κοινωνικής συμμετοχής και της αυτοπεποίθησης.</p>
 							<a href="#" class="special">μάθετε περισσότερα</a>
 						</div>
 					</div>
 				</section>
 
-			</section>	
+			</section>
 		</section>
 		<section id="aboutus">
-		<section class="about-us-section">
-			<div class="container" style="display: flex; flex-direction: column; align-items: center;">
-				<h2 class="section-title">Σχετικά με το Κέντρο Εναρμονίζω</h2>
-				<p class="section-intro">
-					Καλώς ήρθατε στο Εναρμονίζω, ένα διεπιστημονικό κέντρο θεραπευτικής παρέμβασης αφιερωμένο στην
-					υποστήριξη ανθρώπων κάθε ηλικίας για την επίτευξη αρμονίας, ανάπτυξης και ευημερίας. Δύο αδέλφια με
-					κοινό όραμα και αγάπη για τον άνθρωπο, δημιουργήσαμε έναν ασφαλή χώρο θεραπείας και προσωπικής
-					ανάπτυξης. Η εξειδικευμένη ομάδα μας προσφέρει εξατομικευμένες συνεδρίες μουσικοθεραπείας,
-					εργοθεραπείας, λογοθεραπείας και ψυχοθεραπείας, καλύπτοντας ένα ευρύ φάσμα αναγκών και στόχων.
-				</p>
-				<button><a style="text-decoration: none;border-bottom: none;" href="about.html">μάθετε περισσότερα</a></button>
-			</div>
-		</section>
+			<section class="about-us-section">
+				<div class="container" style="display: flex; flex-direction: column; align-items: center;">
+					<h2 class="section-title">Σχετικά με το Κέντρο Εναρμονίζω</h2>
+					<p class="section-intro">
+						Καλώς ήρθατε στο Εναρμονίζω, ένα διεπιστημονικό κέντρο θεραπευτικής παρέμβασης αφιερωμένο στην
+						υποστήριξη ανθρώπων κάθε ηλικίας για την επίτευξη αρμονίας, ανάπτυξης και ευημερίας. Δύο αδέλφια
+						με
+						κοινό όραμα και αγάπη για τον άνθρωπο, δημιουργήσαμε έναν ασφαλή χώρο θεραπείας και προσωπικής
+						ανάπτυξης. Η εξειδικευμένη ομάδα μας προσφέρει εξατομικευμένες συνεδρίες μουσικοθεραπείας,
+						εργοθεραπείας, λογοθεραπείας και ψυχοθεραπείας, καλύπτοντας ένα ευρύ φάσμα αναγκών και στόχων.
+					</p>
+					<button><a style="text-decoration: none;border-bottom: none;" href="about.html">μάθετε
+							περισσότερα</a></button>
+				</div>
+			</section>
 		</section>
 
 
 		<!-- Four -->
-		 <section id="team">
-		<section id="four" class="wrapper alt style1">
-			<div class="inner">
-				<h2 class="major">η ομάδα μας</h2>
-				<p>Η ομάδα μας αποτελείται από εξειδικευμένους θεραπευτές με εμπειρία, ενσυναίσθηση και αφοσίωση.
-					Εργαζόμαστε με σεβασμό στις ανάγκες κάθε ανθρώπου, προσφέροντας υποστήριξη και φροντίδα με
-					επιστημονική βάση και ανθρώπινη προσέγγιση.</p>
-				<section class="features">
-					<article>
-						<a href="#" class="image"><img src="images/music therapist.png" alt="" /></a>
-						<h3 class="major">Μουσικοθεραπεία</h3>
-						<p>Ο Γιώργος χρησιμοποιεί τη μουσική ως θεραπευτικό εργαλείο για την ενίσχυση της
-							συναισθηματικής έκφρασης και ευεξίας.</p>
-						<a href="#" class="special">μάθετε περισσότερα</a>
-					</article>
-					<article>
-						<a href="#" class="image"><img src="images/pshycotherapist.png" alt="" /></a>
-						<h3 class="major">Ψυχοθεραπεία</h3>
-						<p>LΗ Μαρία προσφέρει ψυχολογική υποστήριξη με στόχο τη συναισθηματική ενδυνάμωση και την
-							προσωπική ανάπτυξη.</p>
-						<a href="#" class="special">μάθετε περισσότερα</a>
-					</article>
-					<article>
-						<a href="#" class="image"><img src="images/speech therapist.png" alt="" /></a>
-						<h3 class="major">Λογοθεραπεία</h3>
-						<p>LΗ Ελένη βοηθά άτομα όλων των ηλικιών να βελτιώσουν την επικοινωνία και την έκφρασή τους.</p>
-						<a href="#" class="special">μάθετε περισσότερα</a>
-					</article>
-					<article>
-						<a href="#" class="image"><img src="images/vocational therapist.png" alt="" /></a>
-						<h3 class="major">Εργοθεραπεία</h3>
-						<p>Ο Νίκος υποστηρίζει την καθημερινή αυτονομία μέσα από εξατομικευμένες εργοθεραπευτικές
-							παρεμβάσεις.
+		<section id="team">
+			<section id="four" class="wrapper alt style1">
+				<div class="inner">
+					<h2 class="major">η ομάδα μας</h2>
+					<p>Η ομάδα μας αποτελείται από εξειδικευμένους θεραπευτές με εμπειρία, ενσυναίσθηση και αφοσίωση.
+						Εργαζόμαστε με σεβασμό στις ανάγκες κάθε ανθρώπου, προσφέροντας υποστήριξη και φροντίδα με
+						επιστημονική βάση και ανθρώπινη προσέγγιση.</p>
+					<section class="features">
+						<article>
+							<a href="#" class="image"><img src="images/music therapist.png" alt="" /></a>
+							<h3 class="major">Μουσικοθεραπεία</h3>
+							<p>Ο Γιώργος χρησιμοποιεί τη μουσική ως θεραπευτικό εργαλείο για την ενίσχυση της
+								συναισθηματικής έκφρασης και ευεξίας.</p>
+							<a href="#" class="special">μάθετε περισσότερα</a>
+						</article>
+						<article>
+							<a href="#" class="image"><img src="images/pshycotherapist.png" alt="" /></a>
+							<h3 class="major">Ψυχοθεραπεία</h3>
+							<p>LΗ Μαρία προσφέρει ψυχολογική υποστήριξη με στόχο τη συναισθηματική ενδυνάμωση και την
+								προσωπική ανάπτυξη.</p>
+							<a href="#" class="special">μάθετε περισσότερα</a>
+						</article>
+						<article>
+							<a href="#" class="image"><img src="images/speech therapist.png" alt="" /></a>
+							<h3 class="major">Λογοθεραπεία</h3>
+							<p>LΗ Ελένη βοηθά άτομα όλων των ηλικιών να βελτιώσουν την επικοινωνία και την έκφρασή τους.
+							</p>
+							<a href="#" class="special">μάθετε περισσότερα</a>
+						</article>
+						<article>
+							<a href="#" class="image"><img src="images/vocational therapist.png" alt="" /></a>
+							<h3 class="major">Εργοθεραπεία</h3>
+							<p>Ο Νίκος υποστηρίζει την καθημερινή αυτονομία μέσα από εξατομικευμένες εργοθεραπευτικές
+								παρεμβάσεις.
 
-						</p>
-						<a href="#" class="special">μάθετε περισσότερα</a>
-					</article>
-				</section>
-			</div>
-		</section>
+							</p>
+							<a href="#" class="special">μάθετε περισσότερα</a>
+						</article>
+					</section>
+				</div>
+			</section>
 		</section>
 
 
 
 		<!-- Footer -->
-		 <section id="contactus">
-		<section id="footer">
-			<div class="inner">
-				<h2 class="major">επικοινωνήστε μαζί μας</h2>
-				<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce
-					tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in
-					tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-				<form method="post" action="#">
-					<div class="fields">
-						<div class="field">
-							<label for="name">όνομα</label>
-							<input type="text" name="name" id="name" />
+		<section id="contactus">
+			<section id="footer">
+				<div class="inner">
+					<h2 class="major">επικοινωνήστε μαζί μας</h2>
+					<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat.
+						Fusce
+						tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
+						in
+						tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field">
+								<label for="name">όνομα</label>
+								<input type="text" name="name" id="name" />
+							</div>
+							<div class="field">
+								<label for="email">Email</label>
+								<input type="email" name="email" id="email" />
+							</div>
+							<div class="field">
+								<label for="message">μήνυμα</label>
+								<textarea name="message" id="message" rows="4"></textarea>
+							</div>
 						</div>
-						<div class="field">
-							<label for="email">Email</label>
-							<input type="email" name="email" id="email" />
-						</div>
-						<div class="field">
-							<label for="message">μήνυμα</label>
-							<textarea name="message" id="message" rows="4"></textarea>
-						</div>
-					</div>
-					<ul class="actions">
-						<li><input type="submit" value="Send Message" /></li>
-					</ul>
-				</form>
-				<ul class="contact">
-					<li class="icon solid fa-home">
-						Βαρώνου Χιρς 24<br /> Θεσσαλονίκη <br />54642
-					</li>
-					<li class="icon solid fa-phone">+30 231 515 4436</li>
-					<li class="icon solid fa-envelope"><a href="#">info@enarmonizw.gr</a></li>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" /></li>
+						</ul>
+					</form>
+					<ul class="contact">
+						<li class="icon solid fa-home">
+							Βαρώνου Χιρς 24<br /> Θεσσαλονίκη <br />54642
+						</li>
+						<li class="icon solid fa-phone">+30 231 515 4436</li>
+						<li class="icon solid fa-envelope"><a href="#">info@enarmonizw.gr</a></li>
 
-					<li class="icon brands fa-facebook-f"><a
-							href="https://www.facebook.com/profile.php?id=61551555774121&sk=about_details">facebook.com/enarmonizw</a>
-					</li>
-					<li class="icon brands fa-instagram"><a href="#">instagram.com/@enarmonizw_</a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; Untitled Inc. All rights reserved.</li>
-					<li>ΕναρμονίΖω</li>
-				</ul>
-			</div>
-		</section>
+						<li class="icon brands fa-facebook-f"><a
+								href="https://www.facebook.com/profile.php?id=61551555774121&sk=about_details">facebook.com/enarmonizw</a>
+						</li>
+						<li class="icon brands fa-instagram"><a href="#">instagram.com/@enarmonizw_</a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled Inc. All rights reserved.</li>
+						<li>ΕναρμονίΖω</li>
+					</ul>
+				</div>
+			</section>
 		</section>
 
 	</div>

@@ -1,6 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 /*
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
@@ -8,6 +7,7 @@
 */
 html {
         scroll-behavior: smooth;
+		 font-family: "Noto Sans", sans-serif;
     }
 
 html, body, div, span, applet, object,
@@ -125,9 +125,11 @@ input, select, textarea {
 
 /* Type */
 
+
+
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family:"Noto Sans", sans-serif;
 		font-size: 16.5pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -255,7 +257,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-family: Raleway, Helvetica, sans-serif;
+		font-family: "Noto Sans", sans-serif;;
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		margin: 0 0 1em 0;
@@ -3016,8 +3018,8 @@ input, select, textarea {
 			padding: 1.75em 1.75em 0.1em 1.75em ;
 			background-color: #353849;
 			border-radius: 5px;
-			margin: 1.5em 3em 1.5em 0;
-			width: calc(50% - 1.5em);
+			margin: 1.5em 10em 1.5em 0;
+			width: calc(50% - 6em);
 		}
 
 			.features article:nth-child(2n) {
@@ -4364,3 +4366,33 @@ input, select, textarea {
         left: 12.5px;
     }
 }
+.site-logo {
+  width: 280px; /* Default size on desktop */
+  height: auto;
+  transition: all 0.3s ease;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  .site-logo {
+    width: 220px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .site-logo {
+    width: 230px;
+  }
+}
+.links a.active {
+background: #2e3141;
+  font-weight: bold;
+  border-bottom: 2px solid #ffffff;
+}
+
+
+* {
+   font-family: "Roboto", sans-serif !important;
+ 
+} 
