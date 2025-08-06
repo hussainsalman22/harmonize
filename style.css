@@ -25,7 +25,7 @@ body {
 
 /* Banner Styles */
 .about-banner {
-  background: url('./images/banner.png') center/cover no-repeat;
+background-image:url("./images/aboutus.jpg");
   height: 40rem;
   position: relative;
   display: flex;
@@ -65,9 +65,10 @@ body {
   color: #444;
 }
 .about-modern {
-    background-color: #2e3141;
+    background-color: #EAE6F8;
   /* background: linear-gradient((to bottom, rgba(103, 108, 139, 0.8), rgba(101, 106, 136, 0.8)),url("./images/banner.png")); */
   padding: 60px 20px;
+  margin-bottom: 10px;
 }
 
 .about-grid {
